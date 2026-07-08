@@ -1,0 +1,52 @@
+{
+  "title": "Heart Disease API Monitoring",
+  "schemaVersion": 39,
+  "version": 1,
+  "panels": [
+    {
+      "type": "stat",
+      "title": "Total Requests",
+      "targets": [
+        {
+          "expr": "sum(api_requests_total)"
+        }
+      ]
+    },
+    {
+      "type": "stat",
+      "title": "Prediction Count",
+      "targets": [
+        {
+          "expr": "sum(model_predictions_total)"
+        }
+      ]
+    },
+    {
+      "type": "stat",
+      "title": "API Errors",
+      "targets": [
+        {
+          "expr": "sum(api_errors_total)"
+        }
+      ]
+    },
+    {
+      "type": "timeseries",
+      "title": "Request Latency",
+      "targets": [
+        {
+          "expr": "rate(api_request_latency_seconds_sum[5m]) / rate(api_request_latency_seconds_count[5m])"
+        }
+      ]
+    },
+    {
+      "type": "piechart",
+      "title": "Prediction Distribution",
+      "targets": [
+        {
+          "expr": "sum by (prediction) (model_predictions_total)"
+        }
+      ]
+    }
+  ]
+}

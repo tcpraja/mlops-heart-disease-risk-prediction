@@ -1,0 +1,174 @@
+{
+  "data_policy": "raw_76_attribute_files_only",
+  "modeling_sources": [
+    "cleveland.data",
+    "hungarian.data",
+    "switzerland.data",
+    "long-beach-va.data"
+  ],
+  "excluded_from_training": {
+    "processed_files": "All processed.* files are intentionally not used in this raw-only version.",
+    "new.data": "Downloaded for traceability but not used for training because it is not one of the four named institutional raw databases.",
+    "costs": "Downloaded for completeness but not patient-level model training data."
+  },
+  "rows": 907,
+  "columns": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal",
+    "source_database",
+    "target"
+  ],
+  "source_distribution": {
+    "hungarian": 294,
+    "cleveland": 290,
+    "long_beach_va": 200,
+    "switzerland": 123
+  },
+  "missing_values": {
+    "age": 2,
+    "sex": 4,
+    "cp": 1,
+    "trestbps": 63,
+    "chol": 33,
+    "fbs": 94,
+    "restecg": 6,
+    "thalach": 58,
+    "exang": 58,
+    "oldpeak": 63,
+    "slope": 314,
+    "ca": 612,
+    "thal": 479,
+    "source_database": 0,
+    "target": 0
+  },
+  "target_distribution": {
+    "1": 502,
+    "0": 405
+  },
+  "download_manifest": [
+    {
+      "file": "heart-disease.names",
+      "path": "C:\\Users\\ASUS\\MLOPS\\mlops-heart-disease-v3\\data\\raw\\uci_full_archive\\heart-disease.names",
+      "downloaded": false,
+      "available": true,
+      "status": "already_exists"
+    },
+    {
+      "file": "Index",
+      "path": "C:\\Users\\ASUS\\MLOPS\\mlops-heart-disease-v3\\data\\raw\\uci_full_archive\\Index",
+      "downloaded": false,
+      "available": true,
+      "status": "already_exists"
+    },
+    {
+      "file": "WARNING",
+      "path": "C:\\Users\\ASUS\\MLOPS\\mlops-heart-disease-v3\\data\\raw\\uci_full_archive\\WARNING",
+      "downloaded": false,
+      "available": true,
+      "status": "already_exists"
+    },
+    {
+      "file": "ask-detrano",
+      "path": "C:\\Users\\ASUS\\MLOPS\\mlops-heart-disease-v3\\data\\raw\\uci_full_archive\\ask-detrano",
+      "downloaded": false,
+      "available": true,
+      "status": "already_exists"
+    },
+    {
+      "file": "bak",
+      "path": "C:\\Users\\ASUS\\MLOPS\\mlops-heart-disease-v3\\data\\raw\\uci_full_archive\\bak",
+      "downloaded": false,
+      "available": true,
+      "status": "already_exists"
+    },
+    {
+      "file": "cleveland.data",
+      "path": "C:\\Users\\ASUS\\MLOPS\\mlops-heart-disease-v3\\data\\raw\\uci_full_archive\\cleveland.data",
+      "downloaded": false,
+      "available": true,
+      "status": "already_exists"
+    },
+    {
+      "file": "hungarian.data",
+      "path": "C:\\Users\\ASUS\\MLOPS\\mlops-heart-disease-v3\\data\\raw\\uci_full_archive\\hungarian.data",
+      "downloaded": false,
+      "available": true,
+      "status": "already_exists"
+    },
+    {
+      "file": "switzerland.data",
+      "path": "C:\\Users\\ASUS\\MLOPS\\mlops-heart-disease-v3\\data\\raw\\uci_full_archive\\switzerland.data",
+      "downloaded": false,
+      "available": true,
+      "status": "already_exists"
+    },
+    {
+      "file": "long-beach-va.data",
+      "path": "C:\\Users\\ASUS\\MLOPS\\mlops-heart-disease-v3\\data\\raw\\uci_full_archive\\long-beach-va.data",
+      "downloaded": false,
+      "available": true,
+      "status": "already_exists"
+    },
+    {
+      "file": "new.data",
+      "path": "C:\\Users\\ASUS\\MLOPS\\mlops-heart-disease-v3\\data\\raw\\uci_full_archive\\new.data",
+      "downloaded": false,
+      "available": true,
+      "status": "already_exists"
+    },
+    {
+      "file": "costs/heart-disease.cost",
+      "path": "C:\\Users\\ASUS\\MLOPS\\mlops-heart-disease-v3\\data\\raw\\uci_full_archive\\costs\\heart-disease.cost",
+      "downloaded": false,
+      "available": true,
+      "status": "already_exists"
+    },
+    {
+      "file": "costs/heart-disease.delay",
+      "path": "C:\\Users\\ASUS\\MLOPS\\mlops-heart-disease-v3\\data\\raw\\uci_full_archive\\costs\\heart-disease.delay",
+      "downloaded": false,
+      "available": true,
+      "status": "already_exists"
+    },
+    {
+      "file": "costs/heart-disease.expense",
+      "path": "C:\\Users\\ASUS\\MLOPS\\mlops-heart-disease-v3\\data\\raw\\uci_full_archive\\costs\\heart-disease.expense",
+      "downloaded": false,
+      "available": true,
+      "status": "already_exists"
+    },
+    {
+      "file": "costs/heart-disease.group",
+      "path": "C:\\Users\\ASUS\\MLOPS\\mlops-heart-disease-v3\\data\\raw\\uci_full_archive\\costs\\heart-disease.group",
+      "downloaded": false,
+      "available": true,
+      "status": "already_exists"
+    },
+    {
+      "file": "costs/heart-disease.README",
+      "path": "C:\\Users\\ASUS\\MLOPS\\mlops-heart-disease-v3\\data\\raw\\uci_full_archive\\costs\\heart-disease.README",
+      "downloaded": false,
+      "available": true,
+      "status": "already_exists"
+    },
+    {
+      "file": "costs/Index",
+      "path": "C:\\Users\\ASUS\\MLOPS\\mlops-heart-disease-v3\\data\\raw\\uci_full_archive\\costs\\Index",
+      "downloaded": false,
+      "available": true,
+      "status": "already_exists"
+    }
+  ],
+  "modeling_note": "The cleaned model dataset is created only from the original raw 76-attribute UCI files. The 14 documented ML variables are extracted directly from raw records, then the diagnosis field is converted to binary target: 0 = no heart disease, 1 = heart disease risk present."
+}

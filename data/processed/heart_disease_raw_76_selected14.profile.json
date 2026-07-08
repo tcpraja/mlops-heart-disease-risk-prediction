@@ -1,0 +1,38 @@
+[
+  {
+    "source": "cleveland",
+    "file": "C:\\Users\\ASUS\\MLOPS\\mlops-heart-disease-v3\\data\\raw\\uci_full_archive\\cleveland.data",
+    "raw_tokens": 22621,
+    "full_records": 297,
+    "trailing_tokens_skipped": 49,
+    "rows_parsed": 297,
+    "status": "parsed"
+  },
+  {
+    "source": "hungarian",
+    "file": "C:\\Users\\ASUS\\MLOPS\\mlops-heart-disease-v3\\data\\raw\\uci_full_archive\\hungarian.data",
+    "raw_tokens": 22344,
+    "full_records": 294,
+    "trailing_tokens_skipped": 0,
+    "rows_parsed": 294,
+    "status": "parsed"
+  },
+  {
+    "source": "switzerland",
+    "file": "C:\\Users\\ASUS\\MLOPS\\mlops-heart-disease-v3\\data\\raw\\uci_full_archive\\switzerland.data",
+    "raw_tokens": 9348,
+    "full_records": 123,
+    "trailing_tokens_skipped": 0,
+    "rows_parsed": 123,
+    "status": "parsed"
+  },
+  {
+    "source": "long_beach_va",
+    "file": "C:\\Users\\ASUS\\MLOPS\\mlops-heart-disease-v3\\data\\raw\\uci_full_archive\\long-beach-va.data",
+    "raw_tokens": 15200,
+    "full_records": 200,
+    "trailing_tokens_skipped": 0,
+    "rows_parsed": 200,
+    "status": "parsed"
+  }
+]

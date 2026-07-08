@@ -1,0 +1,6 @@
+artifact_location: file:C:/Users/ASUS/MLOPS/mlops-heart-disease-v3/mlruns/854422933072495602
+creation_time: 1783471291059
+experiment_id: '854422933072495602'
+last_update_time: 1783471291059
+lifecycle_stage: active
+name: heart-disease-risk-prediction-mlops-raw-76-only

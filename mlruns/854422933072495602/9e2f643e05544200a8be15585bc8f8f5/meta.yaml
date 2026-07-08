@@ -1,0 +1,15 @@
+artifact_uri: file:C:/Users/ASUS/MLOPS/mlops-heart-disease-v3/mlruns/854422933072495602/9e2f643e05544200a8be15585bc8f8f5/artifacts
+end_time: 1783471296784
+entry_point_name: ''
+experiment_id: '854422933072495602'
+lifecycle_stage: active
+run_id: 9e2f643e05544200a8be15585bc8f8f5
+run_name: LogisticRegression
+run_uuid: 9e2f643e05544200a8be15585bc8f8f5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1783471291427
+status: 3
+tags: []
+user_id: ASUS

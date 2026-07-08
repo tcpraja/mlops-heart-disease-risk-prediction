@@ -1,0 +1,16 @@
+heart-disease.names
+Index
+WARNING
+ask-detrano
+bak
+cleveland.data
+hungarian.data
+switzerland.data
+long-beach-va.data
+new.data
+costs/heart-disease.cost
+costs/heart-disease.delay
+costs/heart-disease.expense
+costs/heart-disease.group
+costs/heart-disease.README
+costs/Index

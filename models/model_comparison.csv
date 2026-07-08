@@ -1,0 +1,4 @@
+model,best_params,best_cv_roc_auc,accuracy,precision,recall,f1,roc_auc
+RandomForestClassifier,"{""classifier__max_depth"": 6, ""classifier__min_samples_leaf"": 3, ""classifier__n_estimators"": 100}",0.8872479226020893,0.8461538461538461,0.8348623853211009,0.900990099009901,0.8666666666666667,0.9069795868475736
+SupportVectorMachine,"{""classifier__C"": 2.0, ""classifier__kernel"": ""rbf""}",0.8881149097815765,0.8186813186813187,0.8090909090909091,0.8811881188118812,0.8436018957345972,0.906246180173573
+LogisticRegression,"{""classifier__C"": 0.1, ""classifier__solver"": ""lbfgs""}",0.8742219848053182,0.8021978021978022,0.8037383177570093,0.8514851485148515,0.8269230769230769,0.8996455201075664

@@ -1,0 +1,15 @@
+artifact_uri: file:C:/Users/ASUS/MLOPS/mlops-heart-disease-v3/mlruns/854422933072495602/7f11bb225c024395a2840af488946fd3/artifacts
+end_time: 1783471305019
+entry_point_name: ''
+experiment_id: '854422933072495602'
+lifecycle_stage: active
+run_id: 7f11bb225c024395a2840af488946fd3
+run_name: SupportVectorMachine
+run_uuid: 7f11bb225c024395a2840af488946fd3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1783471301897
+status: 3
+tags: []
+user_id: ASUS

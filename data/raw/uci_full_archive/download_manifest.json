@@ -1,0 +1,114 @@
+[
+  {
+    "file": "heart-disease.names",
+    "path": "C:\\Users\\ASUS\\MLOPS\\mlops-heart-disease-v3\\data\\raw\\uci_full_archive\\heart-disease.names",
+    "downloaded": false,
+    "available": true,
+    "status": "already_exists"
+  },
+  {
+    "file": "Index",
+    "path": "C:\\Users\\ASUS\\MLOPS\\mlops-heart-disease-v3\\data\\raw\\uci_full_archive\\Index",
+    "downloaded": false,
+    "available": true,
+    "status": "already_exists"
+  },
+  {
+    "file": "WARNING",
+    "path": "C:\\Users\\ASUS\\MLOPS\\mlops-heart-disease-v3\\data\\raw\\uci_full_archive\\WARNING",
+    "downloaded": false,
+    "available": true,
+    "status": "already_exists"
+  },
+  {
+    "file": "ask-detrano",
+    "path": "C:\\Users\\ASUS\\MLOPS\\mlops-heart-disease-v3\\data\\raw\\uci_full_archive\\ask-detrano",
+    "downloaded": false,
+    "available": true,
+    "status": "already_exists"
+  },
+  {
+    "file": "bak",
+    "path": "C:\\Users\\ASUS\\MLOPS\\mlops-heart-disease-v3\\data\\raw\\uci_full_archive\\bak",
+    "downloaded": false,
+    "available": true,
+    "status": "already_exists"
+  },
+  {
+    "file": "cleveland.data",
+    "path": "C:\\Users\\ASUS\\MLOPS\\mlops-heart-disease-v3\\data\\raw\\uci_full_archive\\cleveland.data",
+    "downloaded": false,
+    "available": true,
+    "status": "already_exists"
+  },
+  {
+    "file": "hungarian.data",
+    "path": "C:\\Users\\ASUS\\MLOPS\\mlops-heart-disease-v3\\data\\raw\\uci_full_archive\\hungarian.data",
+    "downloaded": false,
+    "available": true,
+    "status": "already_exists"
+  },
+  {
+    "file": "switzerland.data",
+    "path": "C:\\Users\\ASUS\\MLOPS\\mlops-heart-disease-v3\\data\\raw\\uci_full_archive\\switzerland.data",
+    "downloaded": false,
+    "available": true,
+    "status": "already_exists"
+  },
+  {
+    "file": "long-beach-va.data",
+    "path": "C:\\Users\\ASUS\\MLOPS\\mlops-heart-disease-v3\\data\\raw\\uci_full_archive\\long-beach-va.data",
+    "downloaded": false,
+    "available": true,
+    "status": "already_exists"
+  },
+  {
+    "file": "new.data",
+    "path": "C:\\Users\\ASUS\\MLOPS\\mlops-heart-disease-v3\\data\\raw\\uci_full_archive\\new.data",
+    "downloaded": false,
+    "available": true,
+    "status": "already_exists"
+  },
+  {
+    "file": "costs/heart-disease.cost",
+    "path": "C:\\Users\\ASUS\\MLOPS\\mlops-heart-disease-v3\\data\\raw\\uci_full_archive\\costs\\heart-disease.cost",
+    "downloaded": false,
+    "available": true,
+    "status": "already_exists"
+  },
+  {
+    "file": "costs/heart-disease.delay",
+    "path": "C:\\Users\\ASUS\\MLOPS\\mlops-heart-disease-v3\\data\\raw\\uci_full_archive\\costs\\heart-disease.delay",
+    "downloaded": false,
+    "available": true,
+    "status": "already_exists"
+  },
+  {
+    "file": "costs/heart-disease.expense",
+    "path": "C:\\Users\\ASUS\\MLOPS\\mlops-heart-disease-v3\\data\\raw\\uci_full_archive\\costs\\heart-disease.expense",
+    "downloaded": false,
+    "available": true,
+    "status": "already_exists"
+  },
+  {
+    "file": "costs/heart-disease.group",
+    "path": "C:\\Users\\ASUS\\MLOPS\\mlops-heart-disease-v3\\data\\raw\\uci_full_archive\\costs\\heart-disease.group",
+    "downloaded": false,
+    "available": true,
+    "status": "already_exists"
+  },
+  {
+    "file": "costs/heart-disease.README",
+    "path": "C:\\Users\\ASUS\\MLOPS\\mlops-heart-disease-v3\\data\\raw\\uci_full_archive\\costs\\heart-disease.README",
+    "downloaded": false,
+    "available": true,
+    "status": "already_exists"
+  },
+  {
+    "file": "costs/Index",
+    "path": "C:\\Users\\ASUS\\MLOPS\\mlops-heart-disease-v3\\data\\raw\\uci_full_archive\\costs\\Index",
+    "downloaded": false,
+    "available": true,
+    "status": "already_exists"
+  }
+]

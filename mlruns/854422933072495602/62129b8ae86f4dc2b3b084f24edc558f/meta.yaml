@@ -1,0 +1,15 @@
+artifact_uri: file:C:/Users/ASUS/MLOPS/mlops-heart-disease-v3/mlruns/854422933072495602/62129b8ae86f4dc2b3b084f24edc558f/artifacts
+end_time: 1783471301895
+entry_point_name: ''
+experiment_id: '854422933072495602'
+lifecycle_stage: active
+run_id: 62129b8ae86f4dc2b3b084f24edc558f
+run_name: RandomForestClassifier
+run_uuid: 62129b8ae86f4dc2b3b084f24edc558f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1783471296786
+status: 3
+tags: []
+user_id: ASUS

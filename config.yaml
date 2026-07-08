@@ -1,0 +1,42 @@
+project:
+  name: mlops-heart-disease
+  version: v1.2-raw-76-only
+  data_policy: raw_uci_76_attribute_files_only
+
+data:
+  uci_base_url: https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease
+  raw_archive_dir: data/raw/uci_full_archive
+  raw_training_files:
+    - cleveland.data
+    - hungarian.data
+    - switzerland.data
+    - long-beach-va.data
+  downloaded_for_traceability_not_training:
+    - new.data
+    - heart-disease.names
+    - Index
+    - WARNING
+    - Costs/
+  selected_raw_attribute_numbers: [3, 4, 9, 10, 12, 16, 19, 32, 38, 40, 41, 44, 51, 58]
+  clean_path: data/processed/heart_disease_raw_only_all_sites_cleaned.csv
+  processed_uci_files_used: false
+
+model:
+  random_seed: 42
+  selection_priority:
+    - recall
+    - roc_auc
+    - f1
+  candidates:
+    - LogisticRegression
+    - RandomForestClassifier
+    - SupportVectorMachine
+
+api:
+  host: 0.0.0.0
+  port: 8000
+  endpoints:
+    - /
+    - /health
+    - /predict
+    - /metrics

@@ -1,0 +1,16 @@
+,missing_count
+ca,612
+thal,479
+slope,314
+fbs,94
+oldpeak,63
+trestbps,63
+thalach,58
+exang,58
+chol,33
+restecg,6
+sex,4
+age,2
+cp,1
+source_database,0
+target,0
